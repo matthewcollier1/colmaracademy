@@ -34,6 +34,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    background-color: #311e32;
 }
 
 .header-logo {
@@ -61,12 +62,17 @@ nav ul a {
 }
 
 nav a:hover {
-    color: #311e32;
+    color: white;
+}
+
+nav a {
+    transition: color 1.5s ease-in;
 }
 
 nav li {
     padding-right: 16px;
 }
+
 
 nav ul:last-child {
   padding-right: 24px;
