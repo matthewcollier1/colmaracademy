@@ -140,6 +140,9 @@ nav ul:last-child {
 
 .banner-button:hover {
     background-color: #311e32;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 1.75rem;
 }
 
 
