@@ -8,6 +8,11 @@ html {
 
 }
 
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 p, h1, h2, h3, h4, a {
     color: #615f5f;
     text-decoration: none;
@@ -56,17 +61,14 @@ nav ul {
     list-style: none;
 }
 
-nav ul a {
-    text-decoration: none;
-    color:
-}
-
 nav a:hover {
     color: white;
 }
 
 nav a {
-    transition: color 1.5s ease-in;
+    transition: color 0.5s ease-in;
+    text-decoration: none;
+    color: #bfb0a0;
 }
 
 nav li {
@@ -106,12 +108,9 @@ nav ul:last-child {
     padding: 32px 24px;
 }
 
-
-
 .banner-text h2 {
     margin-bottom: 1rem;
     font-size: 2.25rem;
-
 }
 
 .banner-text p {
@@ -124,7 +123,10 @@ nav ul:last-child {
     max-width: 300px;
     transition: all 2s linear;
     border-radius: 4px;
+}
 
+.banner-button:hover {
+    background-color: #311e32;
 }
 
 .banner-button p {
@@ -135,14 +137,6 @@ nav ul:last-child {
     text-decoration: none;
     color: white;
 }
-
-.banner-button:hover {
-    background-color: #311e32;
-    width: 200px;
-    border-radius: 25px;
-    font-size: 1.75rem;
-}
-
 
 /*****************************************************************************
  Main Content Section
@@ -352,6 +346,7 @@ Mobile Display
       justify-content: space-around;
       align-items: center;
       height: 64px;
+      background-color: #311e32;
     }
 
     .banner {
@@ -372,10 +367,6 @@ Mobile Display
 
     .banner-button {
       max-width: none;
-    }
-
-    .banner-button:hover {
-        transition: 0;
     }
 
     .main-left {
