@@ -349,7 +349,9 @@ Mobile Display
 
     .page-header-mobile {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      height: 64px;
     }
 
     .banner {
@@ -380,6 +382,10 @@ Mobile Display
       display: none;
     }
 
+    .campus {
+      border: none;
+    }
+
     .right {
       width: 100%;
     }
@@ -388,18 +394,25 @@ Mobile Display
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
+
     .learning-block {
         width: 100%;
         margin-bottom: 8px;
+
     }
+
 
     .learning-block-text {
         padding: 16px 0 24px 16px;
     }
 
-    .learning-block img,
-    {
+    .learning-block img  {
         display: none;
+    }
+
+    .learning-block-text p {
+      display: none;
     }
 
     .thesis-right-col {
