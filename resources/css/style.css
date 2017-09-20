@@ -252,6 +252,10 @@ nav ul:last-child {
     text-transform: uppercase;
 }
 
+.learning-block-text-mobile {
+    display: none;
+}
+
 .learning-headline {
     text-align: center;
 }
@@ -357,16 +361,27 @@ Mobile Display
 
     .banner-button {
       width: 100%;
-      transition: none;
-    }
-
-    .banner-button:hover {
-      display: none;
     }
 
     .left-col {
       display: none;
     }
+
+    .learning-blocks {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .learning-block {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .learning-block img,
+    p,
+    a {
+      display: none;
+    }
+
 
 
 }
